@@ -1,0 +1,142 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado */
+h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Párrafos */
+p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Enlaces */
+a {
+    color: #ff00ae;
+    text-decoration: none;
+}
+
+/* Listas */
+ol {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+}
+
+/* Formulario */
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="range"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="button"] {
+    background-color: #ff00ae;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Videos */
+iframe {
+    width: 100%;
+    height: 315px;
+    margin: 20px 0;
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Títulos */
+h2, h3, h4 {
+    font-size: 20px;
+    color: #ff00ae;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Agregar colores específicos */
+h1, h2 {
+    color: #ff00ae; /* Rojo */
+}
+
+p, ol, li {
+    color: #ff00ae; /* Azul */
+}
+
+a {
+    color: #ff00ae; /* Verde */
+}
+
+.container {
+    background-color: #fff; /* Blanco */
+}
+
+input[type="button"] {
+    background-color: #ff00ae; /* Amarillo */
+    color: #fff;
+}
+
+/* Cambiar el color del fondo del cuerpo (body) */
+body {
+    background-color: #f780cd; /* Azul claro */
+}
+
+/* Estilo para el botón */
+/* Estilo para centrar el botón horizontalmente */
+#botonSorpresa {
+    background-color: #ff00ae; /* Amarillo */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block; /* Hacer que el botón sea un bloque */
+    margin: 0 auto; /* Centrar horizontalmente dentro de su contenedor */
+}
+
+
+/* Estilo para el botón al pasar el ratón por encima */
+#botonSorpresa:hover {
+    background-color: #d9534f; /* Amarillo oscuro al pasar el ratón */
+}
+/* Estilo para el marco amarillo de la imagen */
+#imagenSorpresa {
+    border: 5px solid #f0ad4e; /* Amarillo */
+}
